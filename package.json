@@ -1,0 +1,17 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "This is an example to create (or to simulate) a custom authorizer. Each request might request the authorizer function before any other request, to handle some validations or internal logs",
+  "main": "index.js",
+  "scripts": {
+    "restore": "bash install.sh",
+    "start": "func host start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}

@@ -13,3 +13,5 @@ npm start
 ```
 
 Go to [http://localhost:7071/api/test/private-api](http://localhost:7071/api/test/private-api)
+
+Note: If you want to publish this application, at [proxies.json](proxies.json) replace the "backendUri" to your authorizer published. Ex: `"backendUri": https://myapp.azurewebsites.net/api/authorizer`

@@ -3,7 +3,7 @@
     "proxies": {
         "proxy1": {
             "matchCondition": {
-                "methods": ["GET"],
+                "methods": ["GET", "HEAD","OPTIONS","PATCH","POST","PUT","TRACE","CONNECT","DELETE"],
                 "route": "/api/test/{*functionName}"
             },
             "backendUri": "https://localhost/api/authorizer"

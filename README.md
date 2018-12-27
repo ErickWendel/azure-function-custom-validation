@@ -12,4 +12,4 @@ npm run restore
 npm start
 ```
 
-Go to (http://localhost:7071/api/test/graph-api)[http://localhost:7071/api/test/graph-api]
+Go to [http://localhost:7071/api/test/graph-api](http://localhost:7071/api/test/graph-api)

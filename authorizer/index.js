@@ -18,8 +18,7 @@ module.exports = async function (context, req) {
     } catch (error) {
         console.error('**internal error!', error)
         context.res = {
-            status: 500,
-            body: error
+            status: 500
         }
     }
 
